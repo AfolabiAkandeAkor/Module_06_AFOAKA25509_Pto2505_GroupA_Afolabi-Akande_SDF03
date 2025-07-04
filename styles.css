@@ -27,3 +27,82 @@ img {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+/* Profile Sectiom */
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    flex-direction: inherit;
+    
+}
+
+.profile-image img {
+    
+    border-radius: 50%;
+    border: 4px solid green;
+}
+
+.profile-user-settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.profile-user-name {
+    font-size: 1.6rem;
+    color: rgba(9, 6, 6, 0.677);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 120px;
+    margin-left: 32px;
+    
+}
+
+
+.profile-edit-btn {
+    font-size: 13px;
+    padding: 3px 12px 3px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 105px;
+    margin-left: 32px;
+}
+
+
+
+.profile-settings-btn {
+    padding: 2px 4px 2px 4px;
+    margin-bottom: 105px;
+    
+}
+
+.profile-stats {
+    display: flex;
+    margin-top: -270px;
+    width: calc(44% - 10px);
+    margin-left: 290px;
+}
+
+.profile-stats li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.profile-stat-count {
+    font-weight: 600;
+}
+
+.profile-bio {
+    margin-left: 335px;
+    width: calc(66.666% - 20px);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -120px;
+}
